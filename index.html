@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7f8fb" />
+    <title>五十音闪卡</title>
+    <link rel="stylesheet" href="web/styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">五十音</p>
+          <h1>听读音，选假名</h1>
+        </div>
+        <div class="score-box" aria-label="答题统计">
+          <span id="correctCount">0</span>
+          <span id="answeredCount">/0</span>
+        </div>
+      </header>
+
+      <section class="practice-panel" aria-label="五十音闪卡训练">
+        <div class="mode-tabs" role="tablist" aria-label="训练模式">
+          <button class="mode-tab is-active" type="button" data-mode="all">整体</button>
+          <button class="mode-tab" type="button" data-mode="row">按行</button>
+          <button class="mode-tab" type="button" data-mode="column">按列</button>
+        </div>
+
+        <div class="filter-scroll is-hidden" id="filterScroll">
+          <div class="filter-track" id="filterTrack"></div>
+        </div>
+
+        <div class="card-head">
+          <span id="scopeLabel">整体训练</span>
+          <span id="progressText">1 / 46</span>
+        </div>
+
+        <div class="prompt">
+          <div>
+            <span class="prompt-label">读音</span>
+            <span class="sound-mark" id="soundMark">?</span>
+          </div>
+          <button class="play-button" id="playButton" type="button" aria-label="播放读音">
+            <span aria-hidden="true">▶</span>
+          </button>
+        </div>
+
+        <div class="answer-grid" id="answerGrid"></div>
+
+        <p class="feedback" id="feedbackText">待作答</p>
+
+        <div class="actions">
+          <button class="secondary-button" id="resetButton" type="button">重练本组</button>
+          <button class="primary-button" id="nextButton" type="button" disabled>下一题</button>
+        </div>
+      </section>
+
+      <section class="kana-table" aria-label="五十音表">
+        <div class="table-row table-header">
+          <span></span>
+          <span>あ段</span>
+          <span>い段</span>
+          <span>う段</span>
+          <span>え段</span>
+          <span>お段</span>
+        </div>
+        <div id="kanaTable"></div>
+      </section>
+    </main>
+
+    <script src="web/main.js"></script>
+  </body>
+</html>

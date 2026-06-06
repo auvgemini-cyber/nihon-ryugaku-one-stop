@@ -1,0 +1,23 @@
+# We only publish the static HTML version to GitHub/Vercel.
+
+# WeChat mini program files
+app.js
+app.json
+app.wxss
+project.config.json
+sitemap.json
+pages/
+data/
+
+# Generated reports and analysis tools
+reports/
+tools/
+
+# Local textbook PDFs
+*.pdf
+
+# Common local files
+.DS_Store
+Thumbs.db
+.vercel/
+node_modules/
