@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5efe4" />
+    <title>五十音闪卡 - 日本留学一站通</title>
+    <link rel="stylesheet" href="web/portal.css" />
+  </head>
+  <body>
+    <main class="shell kana-shell">
+      <section class="panel module-panel kana-page" aria-label="五十音与发音练习">
+        <div class="module-panel-head">
+          <div>
+            <p class="section-kicker">N4 Module</p>
+            <h1>五十音闪卡</h1>
+            <p>听读音，选择对应平假名。支持整体训练、按行训练、按段训练。</p>
+          </div>
+          <div class="kana-top-actions">
+            <a class="ghost-action" href="index.html">返回首页</a>
+            <div class="score-box" aria-label="答题统计">
+              <span id="correctCount">0</span>
+              <span id="answeredCount">/0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="kana-practice">
+          <section class="practice-panel" aria-label="五十音闪卡训练">
+            <div class="mode-tabs" role="tablist" aria-label="训练模式">
+              <button class="mode-tab is-active" type="button" data-kana-mode="all">整体</button>
+              <button class="mode-tab" type="button" data-kana-mode="row">按行</button>
+              <button class="mode-tab" type="button" data-kana-mode="column">按段</button>
+            </div>
+
+            <div class="filter-scroll is-hidden" id="filterScroll">
+              <div class="filter-track" id="filterTrack"></div>
+            </div>
+
+            <div class="card-head">
+              <span id="scopeLabel">整体训练</span>
+              <span id="progressText">1 / 46</span>
+            </div>
+
+            <div class="prompt">
+              <div>
+                <span class="prompt-label">读音</span>
+                <span class="sound-mark" id="soundMark">?</span>
+              </div>
+              <button class="play-button" id="playButton" type="button" aria-label="播放读音">
+                <span aria-hidden="true">▶</span>
+              </button>
+            </div>
+
+            <div class="answer-grid" id="answerGrid"></div>
+
+            <p class="feedback" id="feedbackText">待作答</p>
+
+            <div class="actions">
+              <button class="secondary-button" id="resetButton" type="button">重练本组</button>
+              <button class="primary-button" id="nextButton" type="button" disabled>下一题</button>
+            </div>
+          </section>
+
+          <section class="kana-table" aria-label="五十音表">
+            <div class="table-row table-header">
+              <span></span>
+              <span>あ段</span>
+              <span>い段</span>
+              <span>う段</span>
+              <span>え段</span>
+              <span>お段</span>
+            </div>
+            <div id="kanaTable"></div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <script src="web/kana.js"></script>
+  </body>
+</html>

@@ -9,7 +9,7 @@ const stages = [
     target: "能读懂短文、完成基本日常表达，并建立后续中级学习所需的假名、发音、词汇、文法基础。",
     exitGoal: "完成假名自动化识别，掌握基础动词变形、助词和常用表达；能听慢速对话、读教材短文、写 100-200 字日记。",
     metrics: [
-      ["核心能力", "假名 / 词汇 / 基础文法"],
+      ["核心能力", "假名 / 教材点读 / 基础文法"],
       ["输出要求", "自我介绍、购物、问路"],
       ["检测方式", "短文阅读 + 慢速听力"]
     ],
@@ -21,11 +21,27 @@ const stages = [
     tasks: [
       {
         kind: "入口",
-        title: "五十音与发音",
-        desc: "平假名、片假名、浊音、半浊音、拗音、长音和基础音调。",
+        title: "五十音闪卡",
+        desc: "听读音，选择对应平假名。支持整体训练、按行训练和按段训练。",
         output: "目标：听到读音能选出假名，看到假名能稳定读出。",
-        status: "当前页可练",
-        action: "kana"
+        status: "可进入",
+        href: "kana.html"
+      },
+      {
+        kind: "教材",
+        title: "七年级教材点读",
+        desc: "七年级全一册 TTS 点读版，点击教材红框朗读对应句子或词条。",
+        output: "目标：建立课文句子跟读和单词反复听读入口。",
+        status: "可进入",
+        href: "tts_reader.html?book=grade-7-tts"
+      },
+      {
+        kind: "教材",
+        title: "八年级教材点读",
+        desc: "八年级全一册点读版，点击教材红框播放对应课文音频片段。",
+        output: "目标：承接 N4 后半段到 N3 衔接的课文听读。",
+        status: "可进入",
+        href: "tts_reader.html?book=grade-8"
       },
       {
         kind: "词汇",
@@ -46,20 +62,6 @@ const stages = [
         title: "短文阅读",
         desc: "对话、日记、通知、说明短文，训练逐句理解和关键词定位。",
         output: "目标：能读懂 300-600 字以内的基础文章。",
-        status: "菜单预留"
-      },
-      {
-        kind: "听说",
-        title: "日常听说",
-        desc: "自我介绍、问路、购物、学校生活、约定时间、表达喜好和请求。",
-        output: "目标：能完成 1-2 分钟基础场景对话。",
-        status: "菜单预留"
-      },
-      {
-        kind: "检测",
-        title: "N4 阶段测评",
-        desc: "用短文阅读、慢速听力、基础句型造句和口头自我介绍确认是否能进入 N3。",
-        output: "目标：把“学过”转成可量化的阶段出口。",
         status: "菜单预留"
       }
     ]
@@ -386,112 +388,7 @@ const stages = [
   }
 ]
 
-const rows = [
-  { id: "a", label: "あ行", kana: ["あ", "い", "う", "え", "お"] },
-  { id: "ka", label: "か行", kana: ["か", "き", "く", "け", "こ"] },
-  { id: "sa", label: "さ行", kana: ["さ", "し", "す", "せ", "そ"] },
-  { id: "ta", label: "た行", kana: ["た", "ち", "つ", "て", "と"] },
-  { id: "na", label: "な行", kana: ["な", "に", "ぬ", "ね", "の"] },
-  { id: "ha", label: "は行", kana: ["は", "ひ", "ふ", "へ", "ほ"] },
-  { id: "ma", label: "ま行", kana: ["ま", "み", "む", "め", "も"] },
-  { id: "ya", label: "や行", kana: ["や", "", "ゆ", "", "よ"] },
-  { id: "ra", label: "ら行", kana: ["ら", "り", "る", "れ", "ろ"] },
-  { id: "wa", label: "わ行", kana: ["わ", "", "", "", "を"] },
-  { id: "n", label: "ん", kana: ["ん", "", "", "", ""] }
-]
-
-const columns = [
-  { id: "a", label: "あ段", index: 0 },
-  { id: "i", label: "い段", index: 1 },
-  { id: "u", label: "う段", index: 2 },
-  { id: "e", label: "え段", index: 3 },
-  { id: "o", label: "お段", index: 4 }
-]
-
-const romajiMap = {
-  "あ": "a",
-  "い": "i",
-  "う": "u",
-  "え": "e",
-  "お": "o",
-  "か": "ka",
-  "き": "ki",
-  "く": "ku",
-  "け": "ke",
-  "こ": "ko",
-  "さ": "sa",
-  "し": "shi",
-  "す": "su",
-  "せ": "se",
-  "そ": "so",
-  "た": "ta",
-  "ち": "chi",
-  "つ": "tsu",
-  "て": "te",
-  "と": "to",
-  "な": "na",
-  "に": "ni",
-  "ぬ": "nu",
-  "ね": "ne",
-  "の": "no",
-  "は": "ha",
-  "ひ": "hi",
-  "ふ": "fu",
-  "へ": "he",
-  "ほ": "ho",
-  "ま": "ma",
-  "み": "mi",
-  "む": "mu",
-  "め": "me",
-  "も": "mo",
-  "や": "ya",
-  "ゆ": "yu",
-  "よ": "yo",
-  "ら": "ra",
-  "り": "ri",
-  "る": "ru",
-  "れ": "re",
-  "ろ": "ro",
-  "わ": "wa",
-  "を": "wo",
-  "ん": "n"
-}
-
-const modeLabels = {
-  all: "整体训练",
-  row: "按行训练",
-  column: "按段训练"
-}
-
-const optionCount = 4
-const audioBase = "assets/audio/kana"
-
-const tableRows = rows.map((row) => ({
-  id: row.id,
-  label: row.label,
-  cells: row.kana.map((kana, columnIndex) => ({
-    id: `${row.id}-${columnIndex}`,
-    kana
-  }))
-}))
-
-const basicKana = rows.reduce((items, row) => {
-  row.kana.forEach((kana, columnIndex) => {
-    if (!kana) return
-    const column = row.id === "n" ? null : columns[columnIndex]
-    items.push({
-      kana,
-      romaji: romajiMap[kana],
-      rowId: row.id,
-      rowLabel: row.label,
-      columnId: column ? column.id : "special",
-      columnLabel: column ? column.label : "特殊"
-    })
-  })
-  return items
-}, [])
-
-const portalElements = {
+const elements = {
   quickStages: document.getElementById("quickStages"),
   stageRail: document.getElementById("stageRail"),
   stageKicker: document.getElementById("stageKicker"),
@@ -501,62 +398,11 @@ const portalElements = {
   stageMetrics: document.getElementById("stageMetrics"),
   taskGrid: document.getElementById("taskGrid"),
   exitGoal: document.getElementById("exitGoal"),
-  weeklyPlan: document.getElementById("weeklyPlan"),
-  kanaModule: document.getElementById("kanaModule")
-}
-
-const kanaElements = {
-  correctCount: document.getElementById("correctCount"),
-  answeredCount: document.getElementById("answeredCount"),
-  filterScroll: document.getElementById("filterScroll"),
-  filterTrack: document.getElementById("filterTrack"),
-  scopeLabel: document.getElementById("scopeLabel"),
-  progressText: document.getElementById("progressText"),
-  soundMark: document.getElementById("soundMark"),
-  playButton: document.getElementById("playButton"),
-  answerGrid: document.getElementById("answerGrid"),
-  feedbackText: document.getElementById("feedbackText"),
-  resetButton: document.getElementById("resetButton"),
-  nextButton: document.getElementById("nextButton"),
-  kanaTable: document.getElementById("kanaTable"),
-  modeTabs: Array.from(document.querySelectorAll(".mode-tab"))
+  weeklyPlan: document.getElementById("weeklyPlan")
 }
 
 const savedStage = window.localStorage.getItem("nihon-ryugaku-stage")
 let activeStageId = stages.some((stage) => stage.id === savedStage) ? savedStage : "n4"
-let kanaInitialized = false
-let openModuleId = ""
-
-const kanaState = {
-  mode: "all",
-  activeFilter: "",
-  deck: [],
-  deckIndex: 0,
-  current: null,
-  options: [],
-  answered: false,
-  selectedKana: "",
-  stats: {
-    answered: 0,
-    correct: 0
-  }
-}
-
-const kanaAudio = new Audio()
-kanaAudio.preload = "auto"
-
-function shuffle(items) {
-  const result = items.slice()
-  for (let index = result.length - 1; index > 0; index -= 1) {
-    const target = Math.floor(Math.random() * (index + 1))
-    ;[result[index], result[target]] = [result[target], result[index]]
-  }
-  return result
-}
-
-function pickRandom(items, count) {
-  return shuffle(items).slice(0, count)
-}
 
 function getActiveStage() {
   return stages.find((stage) => stage.id === activeStageId) || stages[0]
@@ -565,7 +411,7 @@ function getActiveStage() {
 function setActiveStage(stageId) {
   activeStageId = stageId
   window.localStorage.setItem("nihon-ryugaku-stage", stageId)
-  renderPortal()
+  render()
 }
 
 function createStageButton(stage, compact) {
@@ -596,17 +442,17 @@ function createStageButton(stage, compact) {
 }
 
 function renderStageMenus() {
-  portalElements.quickStages.innerHTML = ""
-  portalElements.stageRail.querySelectorAll(".stage-button").forEach((button) => button.remove())
+  elements.quickStages.innerHTML = ""
+  elements.stageRail.querySelectorAll(".stage-button").forEach((button) => button.remove())
 
   stages.forEach((stage) => {
-    portalElements.quickStages.appendChild(createStageButton(stage, true))
-    portalElements.stageRail.appendChild(createStageButton(stage, false))
+    elements.quickStages.appendChild(createStageButton(stage, true))
+    elements.stageRail.appendChild(createStageButton(stage, false))
   })
 }
 
 function renderMetrics(stage) {
-  portalElements.stageMetrics.innerHTML = ""
+  elements.stageMetrics.innerHTML = ""
   stage.metrics.forEach(([label, value]) => {
     const metric = document.createElement("div")
     metric.className = "metric"
@@ -614,24 +460,20 @@ function renderMetrics(stage) {
       <span class="metric-label">${label}</span>
       <span class="metric-value">${value}</span>
     `
-    portalElements.stageMetrics.appendChild(metric)
+    elements.stageMetrics.appendChild(metric)
   })
 }
 
 function taskActionMarkup(task) {
-  if (task.action === "kana") {
-    return `<button class="task-link" type="button" data-open-module="kana">打开练习</button>`
-  }
-
   if (task.href) {
-    return `<a class="task-link" href="${task.href}">打开模块</a>`
+    return `<a class="task-link" href="${task.href}">进入</a>`
   }
 
   return `<span class="task-link is-muted">规划中</span>`
 }
 
 function renderTasks(stage) {
-  portalElements.taskGrid.innerHTML = ""
+  elements.taskGrid.innerHTML = ""
   stage.tasks.forEach((task) => {
     const card = document.createElement("article")
     card.className = "task-card"
@@ -645,12 +487,12 @@ function renderTasks(stage) {
       <div class="task-output">${task.output}</div>
       ${taskActionMarkup(task)}
     `
-    portalElements.taskGrid.appendChild(card)
+    elements.taskGrid.appendChild(card)
   })
 }
 
 function renderWeeklyPlan(stage) {
-  portalElements.weeklyPlan.innerHTML = ""
+  elements.weeklyPlan.innerHTML = ""
   stage.weekly.forEach(([label, value]) => {
     const row = document.createElement("div")
     row.className = "mini-row"
@@ -658,266 +500,21 @@ function renderWeeklyPlan(stage) {
       <span class="mini-label">${label}</span>
       <span>${value}</span>
     `
-    portalElements.weeklyPlan.appendChild(row)
+    elements.weeklyPlan.appendChild(row)
   })
 }
 
-function renderPortal() {
+function render() {
   const stage = getActiveStage()
   renderStageMenus()
-  portalElements.stageKicker.textContent = stage.type
-  portalElements.stageTitle.textContent = stage.name
-  portalElements.stageBadge.textContent = stage.badge
-  portalElements.stageIntro.textContent = stage.target
-  portalElements.exitGoal.textContent = stage.exitGoal
+  elements.stageKicker.textContent = stage.type
+  elements.stageTitle.textContent = stage.name
+  elements.stageBadge.textContent = stage.badge
+  elements.stageIntro.textContent = stage.target
+  elements.exitGoal.textContent = stage.exitGoal
   renderMetrics(stage)
   renderTasks(stage)
   renderWeeklyPlan(stage)
-  portalElements.kanaModule.classList.toggle(
-    "is-hidden",
-    stage.id !== "n4" || openModuleId !== "kana"
-  )
 }
 
-function openKanaModule() {
-  openModuleId = "kana"
-  if (activeStageId !== "n4") {
-    setActiveStage("n4")
-  } else {
-    renderPortal()
-  }
-  initKana()
-  portalElements.kanaModule.scrollIntoView({ block: "start" })
-}
-
-function getFilters(mode) {
-  if (mode === "row") return rows.map((row) => ({ id: row.id, label: row.label }))
-  if (mode === "column") return columns.map((column) => ({ id: column.id, label: column.label }))
-  return []
-}
-
-function getDefaultFilter(mode) {
-  if (mode === "row") return rows[0].id
-  if (mode === "column") return columns[0].id
-  return ""
-}
-
-function getActiveKana() {
-  const activeFilter = kanaState.activeFilter || getDefaultFilter(kanaState.mode)
-  if (kanaState.mode === "row") {
-    return basicKana.filter((item) => item.rowId === activeFilter)
-  }
-  if (kanaState.mode === "column") {
-    return basicKana.filter((item) => item.columnId === activeFilter)
-  }
-  return basicKana
-}
-
-function getScopeLabel() {
-  const activeFilter = kanaState.activeFilter || getDefaultFilter(kanaState.mode)
-  if (kanaState.mode === "row") {
-    const row = rows.find((item) => item.id === activeFilter)
-    return row ? `${modeLabels.row} · ${row.label}` : modeLabels.row
-  }
-  if (kanaState.mode === "column") {
-    const column = columns.find((item) => item.id === activeFilter)
-    return column ? `${modeLabels.column} · ${column.label}` : modeLabels.column
-  }
-  return modeLabels.all
-}
-
-function updateKanaStats() {
-  kanaElements.correctCount.textContent = String(kanaState.stats.correct)
-  kanaElements.answeredCount.textContent = `/${kanaState.stats.answered}`
-}
-
-function renderKanaModeTabs() {
-  kanaElements.modeTabs.forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.kanaMode === kanaState.mode)
-  })
-}
-
-function renderKanaFilters() {
-  const filters = getFilters(kanaState.mode)
-  kanaElements.filterTrack.innerHTML = ""
-  kanaElements.filterScroll.classList.toggle("is-hidden", filters.length === 0)
-
-  filters.forEach((filter) => {
-    const button = document.createElement("button")
-    button.type = "button"
-    button.className = "filter-chip"
-    button.textContent = filter.label
-    button.dataset.id = filter.id
-    button.classList.toggle("is-active", filter.id === kanaState.activeFilter)
-    button.addEventListener("click", () => {
-      if (kanaState.activeFilter === filter.id) return
-      kanaState.activeFilter = filter.id
-      startKanaSession()
-    })
-    kanaElements.filterTrack.appendChild(button)
-  })
-}
-
-function renderKanaAnswers() {
-  kanaElements.answerGrid.innerHTML = ""
-
-  kanaState.options.forEach((option) => {
-    const button = document.createElement("button")
-    button.type = "button"
-    button.className = "answer"
-    button.textContent = option.kana
-    button.disabled = kanaState.answered
-
-    if (kanaState.answered && option.kana === kanaState.current.kana) {
-      button.classList.add("is-correct")
-    }
-
-    if (kanaState.selectedKana === option.kana && option.kana !== kanaState.current.kana) {
-      button.classList.add("is-wrong")
-    }
-
-    button.addEventListener("click", () => chooseKanaAnswer(option.kana))
-    kanaElements.answerGrid.appendChild(button)
-  })
-}
-
-function renderKanaTable() {
-  kanaElements.kanaTable.innerHTML = ""
-
-  tableRows.forEach((row) => {
-    const rowElement = document.createElement("div")
-    rowElement.className = "table-row"
-
-    const label = document.createElement("span")
-    label.textContent = row.label
-    rowElement.appendChild(label)
-
-    row.cells.forEach((cell) => {
-      const cellElement = document.createElement("span")
-      cellElement.className = "kana-cell"
-      cellElement.textContent = cell.kana
-      if (kanaState.current && kanaState.current.kana === cell.kana) {
-        cellElement.classList.add("is-current")
-      }
-      rowElement.appendChild(cellElement)
-    })
-
-    kanaElements.kanaTable.appendChild(rowElement)
-  })
-}
-
-function setKanaFeedback(text, type = "") {
-  kanaElements.feedbackText.textContent = text
-  kanaElements.feedbackText.className = `feedback${type ? ` ${type}` : ""}`
-}
-
-function renderKanaCard() {
-  kanaElements.scopeLabel.textContent = getScopeLabel()
-  kanaElements.progressText.textContent = `${kanaState.deckIndex + 1} / ${kanaState.deck.length}`
-  kanaElements.soundMark.textContent = kanaState.current ? kanaState.current.romaji : "?"
-  kanaElements.nextButton.disabled = !kanaState.answered
-  renderKanaModeTabs()
-  renderKanaFilters()
-  renderKanaAnswers()
-  renderKanaTable()
-  updateKanaStats()
-}
-
-function setKanaCard(deckIndex) {
-  kanaState.deckIndex = deckIndex
-  kanaState.current = kanaState.deck[deckIndex]
-  kanaState.options = shuffle([
-    kanaState.current,
-    ...pickRandom(
-      basicKana.filter((item) => item.kana !== kanaState.current.kana),
-      optionCount - 1
-    )
-  ])
-  kanaState.answered = false
-  kanaState.selectedKana = ""
-  setKanaFeedback("待作答")
-  renderKanaCard()
-}
-
-function startKanaSession(options = {}) {
-  kanaState.activeFilter = kanaState.activeFilter || getDefaultFilter(kanaState.mode)
-  kanaState.deck = shuffle(getActiveKana())
-
-  if (!options.keepStats) {
-    kanaState.stats = {
-      answered: 0,
-      correct: 0
-    }
-  }
-
-  setKanaCard(0)
-}
-
-function chooseKanaAnswer(kana) {
-  if (kanaState.answered) return
-
-  const isCorrect = kana === kanaState.current.kana
-  kanaState.answered = true
-  kanaState.selectedKana = kana
-  kanaState.stats.answered += 1
-  kanaState.stats.correct += isCorrect ? 1 : 0
-
-  setKanaFeedback(
-    isCorrect ? "正确" : `答案是 ${kanaState.current.kana}，读音 ${kanaState.current.romaji}`,
-    isCorrect ? "correct" : "wrong"
-  )
-  renderKanaCard()
-}
-
-function nextKanaCard() {
-  if (!kanaState.answered) return
-
-  const nextIndex = kanaState.deckIndex + 1
-  if (nextIndex >= kanaState.deck.length) {
-    startKanaSession({ keepStats: true })
-    return
-  }
-
-  setKanaCard(nextIndex)
-}
-
-function playCurrentKanaAudio() {
-  if (!kanaState.current) return
-
-  kanaAudio.pause()
-  kanaAudio.currentTime = 0
-  kanaAudio.src = `${audioBase}/${kanaState.current.romaji}.mp3`
-  kanaAudio.play().catch(() => {
-    setKanaFeedback("音频播放失败", "notice")
-  })
-}
-
-function initKana() {
-  if (kanaInitialized) return
-  kanaInitialized = true
-
-  kanaElements.modeTabs.forEach((button) => {
-    button.addEventListener("click", () => {
-      const nextMode = button.dataset.kanaMode
-      if (nextMode === kanaState.mode) return
-      kanaState.mode = nextMode
-      kanaState.activeFilter = getDefaultFilter(nextMode)
-      startKanaSession()
-    })
-  })
-
-  kanaElements.playButton.addEventListener("click", playCurrentKanaAudio)
-  kanaElements.nextButton.addEventListener("click", nextKanaCard)
-  kanaElements.resetButton.addEventListener("click", () => startKanaSession())
-  kanaAudio.addEventListener("error", () => setKanaFeedback("音频文件未加载", "notice"))
-  startKanaSession()
-}
-
-document.addEventListener("click", (event) => {
-  const trigger = event.target.closest("[data-open-module='kana']")
-  if (!trigger) return
-  event.preventDefault()
-  openKanaModule()
-})
-
-renderPortal()
+render()

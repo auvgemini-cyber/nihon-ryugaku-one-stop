@@ -19,7 +19,7 @@
           </p>
           <div class="hero-actions">
             <a class="primary-action" href="#stage-workspace">选择学习阶段</a>
-            <a class="ghost-action" href="#top-modules">打开顶层模块</a>
+            <a class="ghost-action" href="#route">查看总路线</a>
           </div>
         </div>
 
@@ -31,33 +31,6 @@
           </div>
           <p>建议从 N3 之后逐步加入学术阅读和口头发表，避免只刷选择题。</p>
         </aside>
-      </section>
-
-      <section class="panel module-strip" id="top-modules" aria-label="顶层学习模块">
-        <div class="strip-head">
-          <p class="section-kicker">Top Modules</p>
-          <h2>顶层模块</h2>
-        </div>
-        <div class="module-grid">
-          <article class="module-card module-reader">
-            <span class="module-tag">TTS Reader</span>
-            <h3>教材点读</h3>
-            <p>独立顶层模块。打开七年级教材 TTS 点读版，红框位置可点击朗读，横屏显示双页，竖屏显示单页。</p>
-            <a class="module-action" href="tts_reader.html">打开教材点读</a>
-          </article>
-          <article class="module-card">
-            <span class="module-tag">N4 Built-in</span>
-            <h3>五十音闪卡</h3>
-            <p>已合并到 N4 的“五十音与发音”任务里。点击任务卡即可在当前页面展开听音选假名练习。</p>
-            <button class="module-action" type="button" data-open-module="kana">打开五十音</button>
-          </article>
-          <article class="module-card is-muted">
-            <span class="module-tag">Coming Soon</span>
-            <h3>词汇与阅读</h3>
-            <p>后续接入词汇背诵、阅读训练、EJU 计时和学术写作记录。</p>
-            <span class="module-action muted">规划中</span>
-          </article>
-        </div>
       </section>
 
       <nav class="quick-stages" aria-label="快速选择阶段" id="quickStages"></nav>
@@ -83,74 +56,10 @@
           <div class="task-zone">
             <div class="zone-head">
               <h3>任务菜单</h3>
-              <p>任务卡是各阶段能力入口。可用模块会在当前页展开或跳转到独立静态页面，未接入模块先保留规划占位。</p>
+              <p>首页只保留入口。点击可用任务会进入独立静态页面，未接入模块先保留规划占位。</p>
             </div>
             <div class="task-grid" id="taskGrid"></div>
           </div>
-
-          <section class="module-panel is-hidden" id="kanaModule" aria-label="五十音与发音练习">
-            <div class="module-panel-head">
-              <div>
-                <p class="section-kicker">N4 Module</p>
-                <h3>五十音与发音</h3>
-                <p>听读音，选择对应平假名。支持整体训练、按行训练、按段训练。</p>
-              </div>
-              <div class="score-box" aria-label="答题统计">
-                <span id="correctCount">0</span>
-                <span id="answeredCount">/0</span>
-              </div>
-            </div>
-
-            <div class="kana-practice">
-              <section class="practice-panel" aria-label="五十音闪卡训练">
-                <div class="mode-tabs" role="tablist" aria-label="训练模式">
-                  <button class="mode-tab is-active" type="button" data-kana-mode="all">整体</button>
-                  <button class="mode-tab" type="button" data-kana-mode="row">按行</button>
-                  <button class="mode-tab" type="button" data-kana-mode="column">按段</button>
-                </div>
-
-                <div class="filter-scroll is-hidden" id="filterScroll">
-                  <div class="filter-track" id="filterTrack"></div>
-                </div>
-
-                <div class="card-head">
-                  <span id="scopeLabel">整体训练</span>
-                  <span id="progressText">1 / 46</span>
-                </div>
-
-                <div class="prompt">
-                  <div>
-                    <span class="prompt-label">读音</span>
-                    <span class="sound-mark" id="soundMark">?</span>
-                  </div>
-                  <button class="play-button" id="playButton" type="button" aria-label="播放读音">
-                    <span aria-hidden="true">▶</span>
-                  </button>
-                </div>
-
-                <div class="answer-grid" id="answerGrid"></div>
-
-                <p class="feedback" id="feedbackText">待作答</p>
-
-                <div class="actions">
-                  <button class="secondary-button" id="resetButton" type="button">重练本组</button>
-                  <button class="primary-button" id="nextButton" type="button" disabled>下一题</button>
-                </div>
-              </section>
-
-              <section class="kana-table" aria-label="五十音表">
-                <div class="table-row table-header">
-                  <span></span>
-                  <span>あ段</span>
-                  <span>い段</span>
-                  <span>う段</span>
-                  <span>え段</span>
-                  <span>お段</span>
-                </div>
-                <div id="kanaTable"></div>
-              </section>
-            </div>
-          </section>
         </section>
 
         <aside class="panel side-panel" aria-label="当前阶段执行建议">

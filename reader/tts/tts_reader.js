@@ -1,8 +1,26 @@
-const BOOK_URL = "reader/books/grade-7-tts/book.json"
+const BOOKS = {
+  "grade-7-tts": {
+    label: "七年级教材点读",
+    url: "reader/books/grade-7-tts/book.json",
+    mode: "tts",
+    statusText: "点击红框试听 TTS 朗读文本"
+  },
+  "grade-8": {
+    label: "八年级教材点读",
+    url: "reader/books/grade-8/book.json",
+    mode: "audio",
+    statusText: "点击红框播放对应课文音频片段"
+  }
+}
+
+const params = new URLSearchParams(window.location.search)
+const requestedBook = params.get("book") || "grade-7-tts"
+const activeBookMeta = BOOKS[requestedBook] || BOOKS["grade-7-tts"]
 
 const state = {
   book: null,
   bookBase: "",
+  bookMode: activeBookMeta.mode,
   pageIndex: 0,
   activeHotspotId: "",
   voices: []
@@ -17,7 +35,9 @@ const elements = {
   pageInput: document.getElementById("pageInput"),
   pageStatus: document.getElementById("pageStatus"),
   hotspotStatus: document.getElementById("hotspotStatus"),
-  bookStage: document.getElementById("bookStage")
+  bookStage: document.getElementById("bookStage"),
+  audioPlayer: document.getElementById("audioPlayer"),
+  readerFooter: document.querySelector(".reader-footer")
 }
 
 function isTwoPageMode() {
@@ -67,6 +87,7 @@ function speak(text) {
     return
   }
 
+  elements.audioPlayer.pause()
   window.speechSynthesis.cancel()
   const utterance = new SpeechSynthesisUtterance(text)
   utterance.lang = "ja-JP"
@@ -77,10 +98,34 @@ function speak(text) {
   window.speechSynthesis.speak(utterance)
 }
 
+function playAudioClip(hotspot) {
+  if (!hotspot.audio) {
+    elements.hotspotStatus.textContent = `没有音频片段：${hotspot.text}`
+    return
+  }
+
+  window.speechSynthesis?.cancel()
+  elements.audioPlayer.src = `${state.bookBase}/${hotspot.audio}`
+  elements.audioPlayer.play().catch(() => {
+    elements.hotspotStatus.textContent = `音频播放失败：${hotspot.text}`
+  })
+}
+
 function playHotspot(hotspot) {
   state.activeHotspotId = hotspot.id
-  speak(hotspot.speakText)
-  elements.hotspotStatus.textContent = `${hotspot.kind} · ${hotspot.speakText}`
+
+  if (state.bookMode === "audio") {
+    playAudioClip(hotspot)
+    const range = Number.isFinite(hotspot.start) && Number.isFinite(hotspot.end)
+      ? ` · ${hotspot.start.toFixed(2)}s-${hotspot.end.toFixed(2)}s`
+      : ""
+    elements.hotspotStatus.textContent = `${hotspot.type || "line"} · ${hotspot.text}${range}`
+  } else {
+    const text = hotspot.speakText || hotspot.text
+    speak(text)
+    elements.hotspotStatus.textContent = `${hotspot.kind || hotspot.type || "text"} · ${text}`
+  }
+
   renderActiveHotspot()
 }
 
@@ -96,9 +141,10 @@ function renderHotspotBox(hotspot, bbox, index) {
   button.type = "button"
   button.dataset.hotspotId = hotspot.id
   button.dataset.hotspotBox = String(index)
-  button.dataset.kind = hotspot.kind
-  button.title = `${hotspot.speakText}\n原文：${hotspot.text}`
-  button.setAttribute("aria-label", `朗读：${hotspot.speakText}`)
+  button.dataset.kind = hotspot.kind || hotspot.type || "text"
+  const speakText = hotspot.speakText || hotspot.text
+  button.title = state.bookMode === "audio" ? hotspot.text : `${speakText}\n原文：${hotspot.text}`
+  button.setAttribute("aria-label", state.bookMode === "audio" ? `播放：${hotspot.text}` : `朗读：${speakText}`)
 
   const [x0, y0, x1, y1] = bbox
   button.style.left = `${x0 * 100}%`
@@ -111,7 +157,7 @@ function renderHotspotBox(hotspot, bbox, index) {
 
 function renderHotspots(hotspot) {
   const boxes = Array.isArray(hotspot.boxes) && hotspot.boxes.length ? hotspot.boxes : [hotspot.bbox]
-  return boxes.map((bbox, index) => renderHotspotBox(hotspot, bbox, index))
+  return boxes.filter(Boolean).map((bbox, index) => renderHotspotBox(hotspot, bbox, index))
 }
 
 function renderPage(page) {
@@ -143,7 +189,8 @@ function render() {
   if (!state.book) return
 
   elements.bookTitle.textContent = state.book.title
-  elements.bookSubtitle.textContent = `${state.book.subtitle || ""} · 共 ${state.book.hotspots.length} 个红框候选`
+  elements.bookSubtitle.textContent = `${state.book.subtitle || activeBookMeta.label} · 共 ${state.book.hotspots.length} 个红框候选`
+  elements.readerFooter.classList.toggle("is-hidden", state.bookMode !== "audio")
 
   const pages = visiblePages()
   elements.bookStage.replaceChildren(...pages.map(renderPage))
@@ -164,12 +211,15 @@ function render() {
 }
 
 async function loadBook() {
-  const response = await fetch(BOOK_URL)
-  if (!response.ok) throw new Error(`无法加载教材数据：${BOOK_URL}`)
+  const response = await fetch(activeBookMeta.url)
+  if (!response.ok) throw new Error(`无法加载教材数据：${activeBookMeta.url}`)
   state.book = await response.json()
-  state.bookBase = BOOK_URL.slice(0, BOOK_URL.lastIndexOf("/"))
+  state.bookBase = activeBookMeta.url.slice(0, activeBookMeta.url.lastIndexOf("/"))
+  state.bookMode = activeBookMeta.mode
   state.pageIndex = firstHotspotPageIndex(0)
   state.activeHotspotId = ""
+  elements.hotspotStatus.textContent = activeBookMeta.statusText
+  elements.audioPlayer.removeAttribute("src")
   render()
 }
 
@@ -212,5 +262,6 @@ initEvents()
 loadBook().catch((error) => {
   elements.bookTitle.textContent = "加载失败"
   elements.bookSubtitle.textContent = error.message
+  elements.readerFooter.classList.add("is-hidden")
   console.error(error)
 })

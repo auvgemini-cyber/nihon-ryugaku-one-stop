@@ -157,8 +157,7 @@ h1 {
 }
 
 .primary-action,
-.ghost-action,
-.module-action {
+.ghost-action {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -170,8 +169,7 @@ h1 {
   font-weight: 800;
 }
 
-.primary-action,
-.module-action {
+.primary-action {
   background: var(--red);
   color: #fff9ef;
   box-shadow: 0 12px 32px rgba(207, 47, 36, 0.24);
@@ -230,63 +228,12 @@ h1 {
   backdrop-filter: blur(16px);
 }
 
-.module-strip {
-  margin-top: 22px;
-  padding: 24px;
-}
-
-.strip-head {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 16px;
-  margin-bottom: 16px;
-}
-
-.strip-head h2,
 .route h2 {
   margin: 0;
   font-size: 34px;
   letter-spacing: -0.05em;
 }
 
-.module-grid {
-  display: grid;
-  grid-template-columns: 1.3fr 1fr 1fr;
-  gap: 14px;
-}
-
-.module-card {
-  position: relative;
-  overflow: hidden;
-  min-height: 220px;
-  padding: 20px;
-  border: 1px solid var(--line);
-  border-radius: 22px;
-  background:
-    linear-gradient(145deg, rgba(255, 252, 245, 0.96), rgba(255, 249, 239, 0.82)),
-    radial-gradient(circle at 100% 0%, rgba(185, 122, 35, 0.14), transparent 38%);
-}
-
-.module-card::before {
-  position: absolute;
-  right: -52px;
-  bottom: -62px;
-  width: 168px;
-  height: 168px;
-  border: 24px solid rgba(207, 47, 36, 0.08);
-  border-radius: 50%;
-  content: "";
-}
-
-.module-reader {
-  background:
-    linear-gradient(145deg, rgba(32, 58, 95, 0.94), rgba(18, 29, 46, 0.96)),
-    radial-gradient(circle at 95% 5%, rgba(255, 249, 239, 0.16), transparent 38%);
-  color: #fff9ef;
-}
-
-.module-tag,
 .rail-title,
 .section-kicker,
 .metric-label,
@@ -296,68 +243,8 @@ h1 {
 .task-link,
 .task-output,
 .stage-desc,
-.subtitle,
-.module-card p {
+.subtitle {
   font-family: "Hiragino Sans GB", "PingFang SC", "Microsoft YaHei", sans-serif;
-}
-
-.module-tag {
-  color: var(--red-dark);
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.module-reader .module-tag {
-  color: rgba(255, 249, 239, 0.7);
-}
-
-.module-card h3 {
-  position: relative;
-  z-index: 1;
-  margin: 14px 0 0;
-  font-size: 32px;
-  line-height: 1.06;
-  letter-spacing: -0.05em;
-}
-
-.module-card p {
-  position: relative;
-  z-index: 1;
-  margin: 14px 0 0;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.75;
-}
-
-.module-reader p {
-  color: rgba(255, 249, 239, 0.76);
-}
-
-.module-action {
-  position: relative;
-  z-index: 1;
-  margin-top: 18px;
-  min-height: 42px;
-  border: 0;
-}
-
-.module-reader .module-action {
-  background: #fff9ef;
-  color: #1f2d43;
-  box-shadow: none;
-}
-
-.module-card.is-muted,
-.module-action.muted {
-  opacity: 0.72;
-}
-
-.module-action.muted {
-  background: rgba(21, 17, 13, 0.08);
-  color: var(--muted);
-  box-shadow: none;
 }
 
 .quick-stages {
@@ -509,8 +396,7 @@ h1 {
 }
 
 .stage-head-content,
-.task-card > *,
-.module-card > * {
+.task-card > * {
   position: relative;
   z-index: 1;
 }
@@ -849,10 +735,6 @@ h1 {
   background: rgba(255, 249, 239, 0.44);
 }
 
-.module-panel.is-hidden {
-  display: none;
-}
-
 .score-box {
   min-width: 86px;
   padding: 11px 13px;
@@ -879,6 +761,24 @@ h1 {
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
   gap: 16px;
+}
+
+.kana-shell {
+  width: min(100%, 1180px);
+}
+
+.kana-page {
+  border-radius: var(--radius-xl);
+}
+
+.kana-page h1 {
+  font-size: clamp(36px, 6vw, 68px);
+}
+
+.kana-top-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .practice-panel,
@@ -1160,7 +1060,6 @@ h1 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .module-grid,
   .kana-practice {
     grid-template-columns: 1fr;
   }
@@ -1219,8 +1118,7 @@ h1 {
   }
 
   .zone-head,
-  .module-panel-head,
-  .strip-head {
+  .module-panel-head {
     display: block;
   }
 
@@ -1247,8 +1145,7 @@ h1 {
   .stage-head,
   .task-zone,
   .module-panel,
-  .route,
-  .module-strip {
+  .route {
     padding: 18px;
   }
 
@@ -1256,13 +1153,17 @@ h1 {
     font-size: 44px;
   }
 
-  .task-card,
-  .module-card {
+  .task-card {
     min-height: 0;
   }
 
   .prompt {
     grid-template-columns: 1fr;
+  }
+
+  .kana-top-actions {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .play-button {
