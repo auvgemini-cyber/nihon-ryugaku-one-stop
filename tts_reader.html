@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f2ead8" />
+    <title>七年级日语教材 TTS 点读标注预览</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="reader/tts/tts_reader.css" />
+  </head>
+  <body>
+    <main class="reader-shell">
+      <header class="reader-toolbar">
+        <div class="brand">
+          <p class="eyebrow">TTS 点读标注预览</p>
+          <h1 id="bookTitle">七年级日语教材</h1>
+          <p id="bookSubtitle">加载中...</p>
+        </div>
+
+        <div class="toolbar-actions">
+          <button id="prevButton" type="button">上一页</button>
+          <button id="nextHotspotButton" type="button">下一处红框</button>
+          <button id="nextButton" type="button">下一页</button>
+          <label class="page-jump">
+            <span>页</span>
+            <input id="pageInput" type="number" min="1" inputmode="numeric" />
+          </label>
+        </div>
+      </header>
+
+      <section class="status-bar" aria-live="polite">
+        <span id="pageStatus">-</span>
+        <span id="hotspotStatus">点击红框试听 TTS 朗读文本</span>
+      </section>
+
+      <section class="book-stage" id="bookStage" aria-label="七年级教材页面"></section>
+    </main>
+
+    <script src="reader/tts/tts_reader.js"></script>
+  </body>
+</html>

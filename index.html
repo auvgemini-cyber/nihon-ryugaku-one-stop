@@ -3,72 +3,219 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f7f8fb" />
-    <title>五十音闪卡</title>
-    <link rel="stylesheet" href="web/styles.css" />
+    <meta name="theme-color" content="#f5efe4" />
+    <title>日本留学一站通</title>
+    <link rel="stylesheet" href="web/portal.css" />
   </head>
   <body>
-    <main class="app-shell">
-      <header class="topbar">
-        <div>
-          <p class="eyebrow">五十音</p>
-          <h1>听读音，选假名</h1>
-        </div>
-        <div class="score-box" aria-label="答题统计">
-          <span id="correctCount">0</span>
-          <span id="answeredCount">/0</span>
-        </div>
-      </header>
-
-      <section class="practice-panel" aria-label="五十音闪卡训练">
-        <div class="mode-tabs" role="tablist" aria-label="训练模式">
-          <button class="mode-tab is-active" type="button" data-mode="all">整体</button>
-          <button class="mode-tab" type="button" data-mode="row">按行</button>
-          <button class="mode-tab" type="button" data-mode="column">按列</button>
-        </div>
-
-        <div class="filter-scroll is-hidden" id="filterScroll">
-          <div class="filter-track" id="filterTrack"></div>
-        </div>
-
-        <div class="card-head">
-          <span id="scopeLabel">整体训练</span>
-          <span id="progressText">1 / 46</span>
-        </div>
-
-        <div class="prompt">
-          <div>
-            <span class="prompt-label">读音</span>
-            <span class="sound-mark" id="soundMark">?</span>
+    <main class="shell">
+      <section class="hero" aria-label="日本留学一站通首页">
+        <div class="hero-copy">
+          <p class="eyebrow">Nihon Ryugaku Roadmap</p>
+          <h1>日本留学一站通</h1>
+          <p class="subtitle">
+            从 N4 基础、N3 衔接、N2 留学门槛、N1 高阶理解，到 EJU 与学术日语输出，
+            把“学什么、练什么、何时进入下一阶段”组织成一个可继续扩展的静态学习入口。
+          </p>
+          <div class="hero-actions">
+            <a class="primary-action" href="#stage-workspace">选择学习阶段</a>
+            <a class="ghost-action" href="#top-modules">打开顶层模块</a>
           </div>
-          <button class="play-button" id="playButton" type="button" aria-label="播放读音">
-            <span aria-hidden="true">▶</span>
-          </button>
         </div>
 
-        <div class="answer-grid" id="answerGrid"></div>
+        <aside class="hero-card" aria-label="阶段目标摘要">
+          <div>
+            <small>Core Target</small>
+            <strong>EJU 330+</strong>
+            <p>JLPT 是能力里程碑，真正主线是阅读、听力、记述、小论文、面试和志望理由书。</p>
+          </div>
+          <p>建议从 N3 之后逐步加入学术阅读和口头发表，避免只刷选择题。</p>
+        </aside>
+      </section>
 
-        <p class="feedback" id="feedbackText">待作答</p>
-
-        <div class="actions">
-          <button class="secondary-button" id="resetButton" type="button">重练本组</button>
-          <button class="primary-button" id="nextButton" type="button" disabled>下一题</button>
+      <section class="panel module-strip" id="top-modules" aria-label="顶层学习模块">
+        <div class="strip-head">
+          <p class="section-kicker">Top Modules</p>
+          <h2>顶层模块</h2>
+        </div>
+        <div class="module-grid">
+          <article class="module-card module-reader">
+            <span class="module-tag">TTS Reader</span>
+            <h3>教材点读</h3>
+            <p>独立顶层模块。打开七年级教材 TTS 点读版，红框位置可点击朗读，横屏显示双页，竖屏显示单页。</p>
+            <a class="module-action" href="tts_reader.html">打开教材点读</a>
+          </article>
+          <article class="module-card">
+            <span class="module-tag">N4 Built-in</span>
+            <h3>五十音闪卡</h3>
+            <p>已合并到 N4 的“五十音与发音”任务里。点击任务卡即可在当前页面展开听音选假名练习。</p>
+            <button class="module-action" type="button" data-open-module="kana">打开五十音</button>
+          </article>
+          <article class="module-card is-muted">
+            <span class="module-tag">Coming Soon</span>
+            <h3>词汇与阅读</h3>
+            <p>后续接入词汇背诵、阅读训练、EJU 计时和学术写作记录。</p>
+            <span class="module-action muted">规划中</span>
+          </article>
         </div>
       </section>
 
-      <section class="kana-table" aria-label="五十音表">
-        <div class="table-row table-header">
-          <span></span>
-          <span>あ段</span>
-          <span>い段</span>
-          <span>う段</span>
-          <span>え段</span>
-          <span>お段</span>
+      <nav class="quick-stages" aria-label="快速选择阶段" id="quickStages"></nav>
+
+      <section class="workspace" id="stage-workspace">
+        <aside class="panel stage-rail" aria-label="学习阶段菜单" id="stageRail">
+          <p class="rail-title">Stage Menu</p>
+        </aside>
+
+        <section class="panel main-panel" aria-live="polite">
+          <header class="stage-head">
+            <div class="stage-head-content">
+              <p class="section-kicker" id="stageKicker">JLPT Foundation</p>
+              <div class="stage-title-row">
+                <h2 id="stageTitle">N4 基础构建</h2>
+                <span class="stage-badge" id="stageBadge">初级完成</span>
+              </div>
+              <p class="stage-intro" id="stageIntro"></p>
+              <div class="metrics" id="stageMetrics"></div>
+            </div>
+          </header>
+
+          <div class="task-zone">
+            <div class="zone-head">
+              <h3>任务菜单</h3>
+              <p>任务卡是各阶段能力入口。可用模块会在当前页展开或跳转到独立静态页面，未接入模块先保留规划占位。</p>
+            </div>
+            <div class="task-grid" id="taskGrid"></div>
+          </div>
+
+          <section class="module-panel is-hidden" id="kanaModule" aria-label="五十音与发音练习">
+            <div class="module-panel-head">
+              <div>
+                <p class="section-kicker">N4 Module</p>
+                <h3>五十音与发音</h3>
+                <p>听读音，选择对应平假名。支持整体训练、按行训练、按段训练。</p>
+              </div>
+              <div class="score-box" aria-label="答题统计">
+                <span id="correctCount">0</span>
+                <span id="answeredCount">/0</span>
+              </div>
+            </div>
+
+            <div class="kana-practice">
+              <section class="practice-panel" aria-label="五十音闪卡训练">
+                <div class="mode-tabs" role="tablist" aria-label="训练模式">
+                  <button class="mode-tab is-active" type="button" data-kana-mode="all">整体</button>
+                  <button class="mode-tab" type="button" data-kana-mode="row">按行</button>
+                  <button class="mode-tab" type="button" data-kana-mode="column">按段</button>
+                </div>
+
+                <div class="filter-scroll is-hidden" id="filterScroll">
+                  <div class="filter-track" id="filterTrack"></div>
+                </div>
+
+                <div class="card-head">
+                  <span id="scopeLabel">整体训练</span>
+                  <span id="progressText">1 / 46</span>
+                </div>
+
+                <div class="prompt">
+                  <div>
+                    <span class="prompt-label">读音</span>
+                    <span class="sound-mark" id="soundMark">?</span>
+                  </div>
+                  <button class="play-button" id="playButton" type="button" aria-label="播放读音">
+                    <span aria-hidden="true">▶</span>
+                  </button>
+                </div>
+
+                <div class="answer-grid" id="answerGrid"></div>
+
+                <p class="feedback" id="feedbackText">待作答</p>
+
+                <div class="actions">
+                  <button class="secondary-button" id="resetButton" type="button">重练本组</button>
+                  <button class="primary-button" id="nextButton" type="button" disabled>下一题</button>
+                </div>
+              </section>
+
+              <section class="kana-table" aria-label="五十音表">
+                <div class="table-row table-header">
+                  <span></span>
+                  <span>あ段</span>
+                  <span>い段</span>
+                  <span>う段</span>
+                  <span>え段</span>
+                  <span>お段</span>
+                </div>
+                <div id="kanaTable"></div>
+              </section>
+            </div>
+          </section>
+        </section>
+
+        <aside class="panel side-panel" aria-label="当前阶段执行建议">
+          <section class="side-block">
+            <h3>阶段出口</h3>
+            <p id="exitGoal"></p>
+          </section>
+
+          <section class="side-block">
+            <h3>本周节奏</h3>
+            <div class="mini-plan" id="weeklyPlan"></div>
+          </section>
+
+          <section class="side-block">
+            <h3>常态训练</h3>
+            <ul class="side-list">
+              <li>每天固定听力影子跟读 20 分钟。</li>
+              <li>每天完成核心词汇与汉字积累。</li>
+              <li>每周至少一次阅读、写作、口语输出复盘。</li>
+            </ul>
+          </section>
+        </aside>
+      </section>
+
+      <section class="panel route" id="route" aria-label="日本留学学习总路线">
+        <p class="section-kicker">Six Year Route</p>
+        <h2>从初一到高三的主路线</h2>
+        <div class="route-grid">
+          <article class="route-card">
+            <span class="route-year">初一</span>
+            <strong>N4 完成</strong>
+            <p>假名、基础发音、核心词汇、基础文法、短文阅读和日常表达。</p>
+          </article>
+          <article class="route-card">
+            <span class="route-year">初二</span>
+            <strong>N3 衔接</strong>
+            <p>复句、授受、被动使役、常用书面表达和中级阅读听力。</p>
+          </article>
+          <article class="route-card">
+            <span class="route-year">初三</span>
+            <strong>N2 基础</strong>
+            <p>书面语、新闻评论词汇、段落结构，并开始 EJU 计时训练。</p>
+          </article>
+          <article class="route-card">
+            <span class="route-year">高一</span>
+            <strong>N2 彻底掌握</strong>
+            <p>兼顾高考日语题型，建立稳定阅读速度和写作规范。</p>
+          </article>
+          <article class="route-card">
+            <span class="route-year">高二</span>
+            <strong>N1 + EJU</strong>
+            <p>深入高阶理解，全面进入 EJU 阅读、听读解、记述专项。</p>
+          </article>
+          <article class="route-card">
+            <span class="route-year">高三</span>
+            <strong>校内考决胜</strong>
+            <p>集中完成 EJU、志望理由书、小论文、面试和申请材料。</p>
+          </article>
         </div>
-        <div id="kanaTable"></div>
+        <p class="app-note">
+          所有页面均为纯前端静态程序。后续可继续把词汇、阅读、EJU、写作和学习记录接入当前菜单结构。
+        </p>
       </section>
     </main>
 
-    <script src="web/main.js"></script>
+    <script src="web/portal.js"></script>
   </body>
 </html>
