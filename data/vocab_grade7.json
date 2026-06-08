@@ -1,4 +1,4 @@
-var VOCAB_DATA = {
+{
   "book": "义务教育教科书 日语 七年级 全一册",
   "bookId": "grade-7",
   "units": [
@@ -4186,4 +4186,4 @@ var VOCAB_DATA = {
       ]
     }
   ]
-};
+}
