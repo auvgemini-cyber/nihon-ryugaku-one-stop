@@ -245,9 +245,10 @@ function renderBrowse(area) {
   let html = `<div class="word-count">共 ${words.length} 个单词</div><div class="browse-list">`
   words.forEach(w => {
     const kj = w.kanji ? `<span class="kanji-hint">${w.kanji}</span>` : ""
+    const ac = w.accent ? `<span class="accent-mark">${w.accent}</span>` : ""
     const m = w.meaning || ""
     html += `<div class="browse-item">
-      <div><span class="ja">${w.kana}</span> ${kj}</div>
+      <div><span class="ja">${w.kana}</span>${ac} ${kj}</div>
       <div class="zh">${m}</div>
     </div>`
   })
