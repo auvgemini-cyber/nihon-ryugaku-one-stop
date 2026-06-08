@@ -32,7 +32,7 @@
               "kana": "あね",
               "kanji": "姉",
               "meaning": "(我)姐姐",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あめ",
@@ -56,7 +56,7 @@
               "kana": "いく",
               "kanji": "行く",
               "meaning": "去",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いけ",
@@ -74,13 +74,13 @@
               "kana": "いしゃ",
               "kanji": "医者",
               "meaning": "医生",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いす",
               "kanji": "椅子",
               "meaning": "椅子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いとこ",
@@ -92,7 +92,7 @@
               "kana": "いなか",
               "kanji": "田舎",
               "meaning": "老家，乡下",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いぬ",
@@ -110,13 +110,13 @@
               "kana": "うし",
               "kanji": "牛",
               "meaning": "牛",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うんどうじょう",
               "kanji": "運動場",
               "meaning": "运动场，操场",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "えき",
@@ -128,7 +128,7 @@
               "kana": "えんぴつ",
               "kanji": "鉛筆",
               "meaning": "铅笔",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おかあさん",
@@ -146,7 +146,7 @@
               "kana": "おかね",
               "kanji": "お金",
               "meaning": "钱，金钱",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おじいさん",
@@ -176,7 +176,7 @@
               "kana": "おなじ",
               "kanji": "同じ",
               "meaning": "相同",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おにいさん",
@@ -206,13 +206,13 @@
               "kana": "かう",
               "kanji": "買う",
               "meaning": "买",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かき",
               "kanji": "柿",
               "meaning": "柿子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かぎ",
@@ -224,7 +224,7 @@
               "kana": "かばん",
               "kanji": null,
               "meaning": "手提包，书包",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かほく",
@@ -260,13 +260,13 @@
               "kana": "きって",
               "kanji": "切手",
               "meaning": "邮票",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きょうしつ",
               "kanji": "教室",
               "meaning": "教室；兴趣班",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "くうき",
@@ -314,13 +314,13 @@
               "kana": "こうえん",
               "kanji": "公園",
               "meaning": "公园",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こおり",
               "kanji": "氷",
               "meaning": "冰",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ごご",
@@ -332,19 +332,19 @@
               "kana": "コップ",
               "kanji": null,
               "meaning": "杯子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "さいふ",
               "kanji": "財布",
               "meaning": "钱包",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ざっし",
               "kanji": "雑誌",
               "meaning": "杂志",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "サンドイッチ",
@@ -356,7 +356,7 @@
               "kana": "しかい",
               "kanji": "司会",
               "meaning": "主持人",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しき",
@@ -374,13 +374,13 @@
               "kana": "じしゅう",
               "kanji": "自習",
               "meaning": "自习",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しゅうまつ",
               "kanji": "週末",
               "meaning": "周末",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "じゅぎょう",
@@ -398,19 +398,19 @@
               "kana": "ジョギング",
               "kanji": null,
               "meaning": "跑步，慢跑",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しょくじ",
               "kanji": "食事",
               "meaning": "用餐",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すいか",
               "kanji": null,
               "meaning": "西瓜",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "スイス",
@@ -440,7 +440,7 @@
               "kana": "する",
               "kanji": null,
               "meaning": "做",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "せいと",
@@ -500,7 +500,7 @@
               "kana": "たけ",
               "kanji": "竹",
               "meaning": "竹子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "だれ",
@@ -512,7 +512,7 @@
               "kana": "ちかてつ",
               "kanji": "地下鉄",
               "meaning": "地铁",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ちず",
@@ -536,7 +536,7 @@
               "kana": "ちゅうごくご",
               "kanji": "中国語",
               "meaning": "中文，汉语",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ちゅうごくじん",
@@ -554,7 +554,7 @@
               "kana": "つくえ",
               "kanji": "机",
               "meaning": "书桌",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "テスト",
@@ -566,7 +566,7 @@
               "kana": "とけい",
               "kanji": "時計",
               "meaning": "钟表",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "どこ",
@@ -584,7 +584,7 @@
               "kana": "となり",
               "kanji": "隣",
               "meaning": "旁边；邻居",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "とほ",
@@ -614,19 +614,19 @@
               "kana": "にっき",
               "kanji": "日記",
               "meaning": "日记",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "にほんご",
               "kanji": "日本語",
               "meaning": "日语，日文",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "にんじん",
               "kanji": "人参",
               "meaning": "胡萝卜",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ねこ",
@@ -644,13 +644,13 @@
               "kana": "バイオリン",
               "kanji": null,
               "meaning": "小提琴",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はこ",
               "kanji": "箱",
               "meaning": "盒子，箱子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はこね",
@@ -698,13 +698,13 @@
               "kana": "ひ",
               "kanji": "日",
               "meaning": "ひ䒩 太阳",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ピアノ",
               "kanji": null,
               "meaning": "钢琴",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "びょう",
@@ -716,7 +716,7 @@
               "kana": "びょういん",
               "kanji": "病院",
               "meaning": "医院",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ふく",
@@ -758,13 +758,13 @@
               "kana": "べんきょう",
               "kanji": "勉強",
               "meaning": "学习；用功",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ぼうし",
               "kanji": "帽子",
               "meaning": "帽子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ぼく",
@@ -776,7 +776,7 @@
               "kana": "ほし",
               "kanji": "星",
               "meaning": "星星",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ほん",
@@ -806,7 +806,7 @@
               "kana": "みち",
               "kanji": "道",
               "meaning": "道路",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "むすめ",
@@ -830,13 +830,13 @@
               "kana": "やおや",
               "kanji": "八百屋",
               "meaning": "果蔬店",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "やきゅう",
               "kanji": "野球",
               "meaning": "棒球",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ゆき",
@@ -884,7 +884,7 @@
               "kana": "あれ",
               "kanji": null,
               "meaning": "那，那个",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いい",
@@ -926,7 +926,7 @@
               "kana": "おいしい",
               "kanji": null,
               "meaning": "好吃，好喝",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おおい",
@@ -950,7 +950,7 @@
               "kana": "がっこう",
               "kanji": "学校",
               "meaning": "学校",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かんさい",
@@ -1034,25 +1034,25 @@
               "kana": "これ",
               "kanji": null,
               "meaning": "这，这个",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "さかな",
               "kanji": "魚",
               "meaning": "鱼；鱼类",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "さくひん",
               "kanji": "作品",
               "meaning": "作品",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "さん",
               "kanji": "三",
               "meaning": "三",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "し",
@@ -1070,13 +1070,13 @@
               "kana": "じかん",
               "kanji": "時間",
               "meaning": "课时；时间；小时",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "じかんわり",
               "kanji": "時間割",
               "meaning": "课程表；时间表",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しずか",
@@ -1100,13 +1100,13 @@
               "kana": "じょうぶ",
               "kanji": "丈夫",
               "meaning": "结实，健康",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しりあい",
               "kanji": "知り合い",
               "meaning": "相识，认识；熟人",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すごい",
@@ -1118,7 +1118,7 @@
               "kana": "せいせき",
               "kanji": "成績",
               "meaning": "成绩",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "せいと",
@@ -1148,13 +1148,13 @@
               "kana": "それ",
               "kanji": null,
               "meaning": "那，那个",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たいせつ",
               "kanji": "大切",
               "meaning": "重要；爱护",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ちいさい",
@@ -1178,19 +1178,19 @@
               "kana": "どうぶつ",
               "kanji": "動物",
               "meaning": "动物",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "とおい",
               "kanji": "遠い",
               "meaning": "远",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "とり",
               "kanji": "鳥",
               "meaning": "鸟",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "どれ",
@@ -1208,7 +1208,7 @@
               "kana": "なまえ",
               "kanji": "名前",
               "meaning": "名字，姓名",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "なん",
@@ -1256,7 +1256,7 @@
               "kana": "はつおん",
               "kanji": "発音",
               "meaning": "发音",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ひゃく",
@@ -1280,7 +1280,7 @@
               "kana": "ほんとう",
               "kanji": "本当",
               "meaning": "真的",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "みんな",
@@ -1292,13 +1292,13 @@
               "kana": "むずかしい",
               "kanji": "難しい",
               "meaning": "困难",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "やさしい",
               "kanji": "易しい",
               "meaning": "容易",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "よん/よ",
@@ -1328,13 +1328,13 @@
               "kana": "あそぶ",
               "kanji": "遊ぶ",
               "meaning": "玩",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あらう",
               "kanji": "洗う",
               "meaning": "洗",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いじょう",
@@ -1346,7 +1346,7 @@
               "kana": "いちばん",
               "kanji": null,
               "meaning": "最；第一(作名词时声调为②)",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いつ",
@@ -1364,7 +1364,7 @@
               "kana": "うんどう",
               "kanji": "運動",
               "meaning": "运动",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おきる",
@@ -1382,7 +1382,7 @@
               "kana": "かお",
               "kanji": "顔",
               "meaning": "脸，面孔",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かく",
@@ -1394,7 +1394,7 @@
               "kana": "きく",
               "kanji": "聞く",
               "meaning": "听；问",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きたえる",
@@ -1406,7 +1406,7 @@
               "kana": "ぎゅうにゅう",
               "kanji": "牛乳",
               "meaning": "牛奶",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "くだもの",
@@ -1430,13 +1430,13 @@
               "kana": "さく",
               "kanji": "咲く",
               "meaning": "开放，盛开",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しぬ",
               "kanji": "死ぬ",
               "meaning": "死，死亡",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ジュース",
@@ -1448,13 +1448,13 @@
               "kana": "しゅっせき",
               "kanji": "出席",
               "meaning": "出席",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しょうかい",
               "kanji": "紹介",
               "meaning": "介绍",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "スケジュール",
@@ -1502,7 +1502,7 @@
               "kana": "とうにゅう",
               "kanji": "豆乳",
               "meaning": "豆浆",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "とる",
@@ -1514,7 +1514,7 @@
               "kana": "にくまん",
               "kanji": "肉まん",
               "meaning": "肉包子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "にちようび",
@@ -1526,7 +1526,7 @@
               "kana": "ねる",
               "kanji": "寝る",
               "meaning": "睡觉",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "のむ",
@@ -1580,7 +1580,7 @@
               "kana": "ひ",
               "kanji": "日",
               "meaning": "天，日子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ふだん",
@@ -1598,7 +1598,7 @@
               "kana": "みがく",
               "kanji": "磨く",
               "meaning": "刷(牙)，磨；磨砺",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "みる",
@@ -1640,13 +1640,13 @@
               "kana": "あげる",
               "kanji": "揚げる",
               "meaning": "升",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あそこ",
               "kanji": null,
               "meaning": "那儿，那里",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あっ",
@@ -1676,25 +1676,25 @@
               "kana": "いりぐち",
               "kanji": "入り口",
               "meaning": "门口，入口",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いる",
               "kanji": null,
               "meaning": "(人、动物)有，在",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うしろ",
               "kanji": "後ろ",
               "meaning": "后面，背后",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うち",
               "kanji": null,
               "meaning": "我(的)，我们(的) ；里面； 家，自家；房子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おおさか",
@@ -1718,7 +1718,7 @@
               "kana": "きょうがくとう",
               "kanji": "教学棟",
               "meaning": "教学楼",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きょうと",
@@ -1748,7 +1748,7 @@
               "kana": "こっき",
               "kanji": "国旗",
               "meaning": "国旗",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ごはん",
@@ -1766,7 +1766,7 @@
               "kana": "さっか",
               "kanji": "作家",
               "meaning": "作家",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "サッカー",
@@ -1784,7 +1784,7 @@
               "kana": "した",
               "kanji": "下",
               "meaning": "下，下面",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しょうがくせい",
@@ -1796,13 +1796,13 @@
               "kana": "しょうせつ",
               "kanji": "小説",
               "meaning": "小说",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しょくどう",
               "kanji": "食堂",
               "meaning": "食堂",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すいようび",
@@ -1814,13 +1814,13 @@
               "kana": "せいもん",
               "kanji": "正門",
               "meaning": "正门，大门",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "そこ",
               "kanji": null,
               "meaning": "那儿，那里",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たくさん",
@@ -1832,13 +1832,13 @@
               "kana": "たっきゅう",
               "kanji": "卓球",
               "meaning": "乒乓球",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たっきゅうだい",
               "kanji": "卓球台",
               "meaning": "乒乓球台",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "だて",
@@ -1873,13 +1873,13 @@
               "kana": "とても",
               "kanji": null,
               "meaning": "很，非常",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ともだち",
               "kanji": "友達",
               "meaning": "朋友",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "どようび",
@@ -1891,13 +1891,13 @@
               "kana": "にわ",
               "kanji": "庭",
               "meaning": "院子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "にんき",
               "kanji": "人気",
               "meaning": "人气，声望",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ひるごはん",
@@ -1915,7 +1915,7 @@
               "kana": "へえ",
               "kanji": null,
               "meaning": "啊，哦",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "べんとう",
@@ -1927,7 +1927,7 @@
               "kana": "ボール",
               "kanji": null,
               "meaning": "球",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "まえ",
@@ -1939,7 +1939,7 @@
               "kana": "むかし",
               "kanji": "昔",
               "meaning": "从前",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "もくようび",
@@ -1951,7 +1951,7 @@
               "kana": "りっぱ",
               "kanji": "立派",
               "meaning": "漂亮，宏伟；优秀",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "りょう",
@@ -2005,7 +2005,7 @@
               "kana": "うんてん",
               "kanji": "運転",
               "meaning": "(名·动3自他) 驾驶",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "えがく",
@@ -2017,7 +2017,7 @@
               "kana": "おく",
               "kanji": "置く",
               "meaning": "放，搁；设置",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おと",
@@ -2065,13 +2065,13 @@
               "kana": "かべ",
               "kanji": "壁",
               "meaning": "墙壁",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "からだ",
               "kanji": "体",
               "meaning": "身体",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "がんばる",
@@ -2101,7 +2101,7 @@
               "kana": "くるま",
               "kanji": "車",
               "meaning": "车，小轿车",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "けが",
@@ -2137,31 +2137,31 @@
               "kana": "ことし",
               "kanji": "今年",
               "meaning": "今年",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "これから",
               "kanji": null,
               "meaning": "今后；从这里起",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "さいきん",
               "kanji": "最近",
               "meaning": "最近",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "じしん",
               "kanji": "自信",
               "meaning": "自信，信心",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しどう",
               "kanji": "指導",
               "meaning": "指导",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しゅみ",
@@ -2203,7 +2203,7 @@
               "kana": "せんしゅう",
               "kanji": "先週",
               "meaning": "上星期，上周",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "そう",
@@ -2239,7 +2239,7 @@
               "kana": "でかける",
               "kanji": "出かける",
               "meaning": "外出，出门",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "できる",
@@ -2317,7 +2317,7 @@
               "kana": "ひく",
               "kanji": "弾く",
               "meaning": "弹，弹奏",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ひと",
@@ -2365,13 +2365,13 @@
               "kana": "まいしゅう",
               "kanji": "毎週",
               "meaning": "每周，每星期",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "まいつき",
               "kanji": "毎月",
               "meaning": "每月",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "まん",
@@ -2419,7 +2419,7 @@
               "kana": "あかい",
               "kanji": "赤い",
               "meaning": "红",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あきらか",
@@ -2431,7 +2431,7 @@
               "kana": "あの",
               "kanji": null,
               "meaning": "那，那个",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あまえる",
@@ -2448,7 +2448,7 @@
               "kana": "いつか",
               "kanji": "五日",
               "meaning": "五日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いっしょうけんめい",
@@ -2460,13 +2460,13 @@
               "kana": "いっしょに",
               "kanji": null,
               "meaning": "一起",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いっぱい",
               "kanji": null,
               "meaning": "很多；充满",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うんどうかい",
@@ -2490,13 +2490,13 @@
               "kana": "えんもく",
               "kanji": "演目",
               "meaning": "节目，曲目",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おうえん",
               "kanji": "応援",
               "meaning": "助威；援助",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かさ",
@@ -2526,7 +2526,7 @@
               "kana": "かんたん",
               "kanji": "簡単",
               "meaning": "简单，容易",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "げん",
@@ -2538,7 +2538,7 @@
               "kana": "ごうかく",
               "kanji": "合格",
               "meaning": "合格，通过(考试等)",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ゴール",
@@ -2556,13 +2556,13 @@
               "kana": "この",
               "kanji": null,
               "meaning": "这，这个",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "さんか",
               "kanji": "参加",
               "meaning": "参加",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ざんねん",
@@ -2574,25 +2574,25 @@
               "kana": "しゃしん",
               "kanji": "写真",
               "meaning": "照片",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しゅくだい",
               "kanji": "宿題",
               "meaning": "作业，课后作业",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しゅもく",
               "kanji": "種目",
               "meaning": "项目",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "その",
               "kanji": null,
               "meaning": "那，那个",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たかい",
@@ -2604,7 +2604,7 @@
               "kana": "だんだん",
               "kanji": null,
               "meaning": "渐渐地",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ついたち",
@@ -2646,7 +2646,7 @@
               "kana": "てんいん",
               "kanji": "店員",
               "meaning": "店员",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "てんき",
@@ -2664,13 +2664,13 @@
               "kana": "でんわ",
               "kanji": "電話",
               "meaning": "(打)电话",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "とおか",
               "kanji": "十日",
               "meaning": "十日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "とき",
@@ -2688,19 +2688,19 @@
               "kana": "なのか",
               "kanji": "七日",
               "meaning": "七日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "にがて",
               "kanji": "苦手",
               "meaning": "不擅长；难对付的人",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ねんかん",
               "kanji": "年間",
               "meaning": "年间；年代；一年",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はくぶつかん",
@@ -2712,7 +2712,7 @@
               "kana": "はつか",
               "kanji": "二十日",
               "meaning": "二十日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ひとり",
@@ -2730,7 +2730,7 @@
               "kana": "びょうき",
               "kanji": "病気",
               "meaning": "疾病",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ふたり",
@@ -2742,7 +2742,7 @@
               "kana": "ふつか",
               "kanji": "二日",
               "meaning": "二日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "べんり",
@@ -2766,7 +2766,7 @@
               "kana": "みっか",
               "kanji": "三日",
               "meaning": "三日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "みなさん",
@@ -2778,7 +2778,7 @@
               "kana": "むいか",
               "kanji": "六日",
               "meaning": "六日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "メートル",
@@ -2802,19 +2802,19 @@
               "kana": "やさしい",
               "kanji": "優しい",
               "meaning": "和蔼，温和",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ゆうしょう",
               "kanji": "優勝",
               "meaning": "冠军，第一名",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ようか",
               "kanji": "八日",
               "meaning": "八日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "よく",
@@ -2826,19 +2826,19 @@
               "kana": "よっか",
               "kanji": "四日",
               "meaning": "四日",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "りょこう",
               "kanji": "旅行",
               "meaning": "旅行，旅游",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "リレー",
               "kanji": null,
               "meaning": "接力赛跑；接力，传递",
-              "accent": "䒩"
+              "accent": "⓪"
             }
           ]
         },
@@ -2868,13 +2868,13 @@
               "kana": "うえ",
               "kanji": "上",
               "meaning": "上，上面",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おどる",
               "kanji": "踊る",
               "meaning": "跳舞，舞蹈",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かい",
@@ -2898,7 +2898,7 @@
               "kana": "きょうげき",
               "kanji": "京劇",
               "meaning": "京剧",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きんじょ",
@@ -2910,13 +2910,13 @@
               "kana": "けいたい",
               "kanji": "携帯",
               "meaning": "手机；携带",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "けんこう",
               "kanji": "健康",
               "meaning": "健康",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こころ",
@@ -2969,7 +2969,7 @@
               "kana": "しゅうかん",
               "kanji": "週間",
               "meaning": "周，星期",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しょどう",
@@ -2987,7 +2987,7 @@
               "kana": "すいえい",
               "kanji": "水泳",
               "meaning": "游泳",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "せいしょうねん",
@@ -3005,13 +3005,13 @@
               "kana": "そして",
               "kanji": null,
               "meaning": "然后，而且",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "だいじ",
               "kanji": null,
               "meaning": "［大事］         (形2) 重要；珍惜",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たのしむ",
@@ -3041,19 +3041,19 @@
               "kana": "ど",
               "kanji": "度",
               "meaning": "䒩 度，次；……次，……度",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ときどき",
               "kanji": null,
               "meaning": "有时，时常",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ネット",
               "kanji": null,
               "meaning": "网络",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "バドミントン",
@@ -3065,7 +3065,7 @@
               "kana": "ひま",
               "kanji": "暇",
               "meaning": "空闲",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ビル",
@@ -3089,7 +3089,7 @@
               "kana": "まんが",
               "kanji": "漫画",
               "meaning": "漫画，连环画",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "よか",
@@ -3101,7 +3101,7 @@
               "kana": "りゆう",
               "kanji": "理由",
               "meaning": "理由",
-              "accent": "䒩"
+              "accent": "⓪"
             }
           ]
         }
@@ -3131,7 +3131,7 @@
               "kana": "いためもの",
               "kanji": "炒め物",
               "meaning": "炒(的)菜",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いろ",
@@ -3143,7 +3143,7 @@
               "kana": "いんしょう",
               "kanji": "印象",
               "meaning": "印象",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うた",
@@ -3155,7 +3155,7 @@
               "kana": "うたう",
               "kanji": "歌う",
               "meaning": "唱",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うんなん",
@@ -3167,7 +3167,7 @@
               "kana": "えいよう",
               "kanji": "栄養",
               "meaning": "营养",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "えん",
@@ -3179,7 +3179,7 @@
               "kana": "おしえる",
               "kanji": "教える",
               "meaning": "教；告诉",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かしゅ",
@@ -3221,7 +3221,7 @@
               "kana": "けんがく",
               "kanji": "見学",
               "meaning": "参观",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こ",
@@ -3233,7 +3233,7 @@
               "kana": "こんしゅう",
               "kanji": "今週",
               "meaning": "这星期",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こんばん",
@@ -3251,7 +3251,7 @@
               "kana": "さいしょ",
               "kanji": "最初",
               "meaning": "最初，起初",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ざいりょう",
@@ -3269,13 +3269,13 @@
               "kana": "しかた",
               "kanji": "仕方",
               "meaning": "做法，办法",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しょくざい",
               "kanji": "食材",
               "meaning": "食材",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しんせん",
@@ -3299,7 +3299,7 @@
               "kana": "せいこう",
               "kanji": "成功",
               "meaning": "成功",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "せかい",
@@ -3311,7 +3311,7 @@
               "kana": "せつめい",
               "kanji": "説明",
               "meaning": "说明",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たっぷり",
@@ -3341,7 +3341,7 @@
               "kana": "つかう",
               "kanji": "使う",
               "meaning": "使用",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "つく",
@@ -3359,7 +3359,7 @@
               "kana": "とくちょう",
               "kanji": "特徴",
               "meaning": "特点，特征",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "トマト",
@@ -3401,13 +3401,13 @@
               "kana": "ぶたにく",
               "kanji": "豚肉",
               "meaning": "猪肉",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ほうふ",
               "kanji": "豊富",
               "meaning": "丰富",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ポスター",
@@ -3425,7 +3425,7 @@
               "kana": "まなぶ",
               "kanji": "学ぶ",
               "meaning": "学习，掌握",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "め",
@@ -3437,7 +3437,7 @@
               "kana": "やっと",
               "kanji": null,
               "meaning": "好不容易，终于",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "やま",
@@ -3449,7 +3449,7 @@
               "kana": "ゆうめい",
               "kanji": "有名",
               "meaning": "有名",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "りょうり",
@@ -3473,19 +3473,19 @@
               "kana": "あぶない",
               "kanji": "危ない",
               "meaning": "危险；令人担心",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あんぜん",
               "kanji": "安全",
               "meaning": "安全，平安",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いろいろ",
               "kanji": null,
               "meaning": "各种各样",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うんてんしゅ",
@@ -3497,19 +3497,19 @@
               "kana": "おちゃ",
               "kanji": "お茶",
               "meaning": "茶，茶叶",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おとしより",
               "kanji": "お年寄り",
               "meaning": "老年人",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おもい",
               "kanji": "重い",
               "meaning": "重，沉",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おや",
@@ -3527,7 +3527,7 @@
               "kana": "かいしゃ",
               "kanji": "会社",
               "meaning": "公司",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かいしゃいん",
@@ -3545,7 +3545,7 @@
               "kana": "かんじゃ",
               "kanji": "患者",
               "meaning": "病人，患者",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きしゃ",
@@ -3569,13 +3569,13 @@
               "kana": "げんば",
               "kanji": "現場",
               "meaning": "现场",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こうばん",
               "kanji": "交番",
               "meaning": "岗亭，警务工作站",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こくないがい",
@@ -3611,19 +3611,19 @@
               "kana": "しごと",
               "kanji": "仕事",
               "meaning": "工作；职业",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "じぶん",
               "kanji": "自分",
               "meaning": "自己，自身",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "じゅうみん",
               "kanji": "住民",
               "meaning": "居民",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しゅふ",
@@ -3635,7 +3635,7 @@
               "kana": "じょうきょう",
               "kanji": "状況",
               "meaning": "情况，状况",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しんねん",
@@ -3647,7 +3647,7 @@
               "kana": "しんぶん",
               "kanji": "新聞",
               "meaning": "报纸",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すぐに",
@@ -3659,19 +3659,19 @@
               "kana": "せいかつ",
               "kanji": "生活",
               "meaning": "生活",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "そうだん",
               "kanji": "相談",
               "meaning": "商量，协商",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たいへん",
               "kanji": "大変",
               "meaning": "(名·形2·副) 不得了，严重；非常",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たすける",
@@ -3683,7 +3683,7 @@
               "kana": "つめたい",
               "kanji": "冷たい",
               "meaning": "冷，凉；冷淡",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "どう",
@@ -3713,7 +3713,7 @@
               "kana": "ないよう",
               "kanji": "内容",
               "meaning": "内容",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "なつやすみ",
@@ -3731,7 +3731,7 @@
               "kana": "はいたつ",
               "kanji": "配達",
               "meaning": "送，投递",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はいたついん",
@@ -3743,13 +3743,13 @@
               "kana": "はたらく",
               "kanji": "働く",
               "meaning": "工作，劳动；起作用",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はっぴょう",
               "kanji": "発表",
               "meaning": "发言，汇报；发表",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はなし",
@@ -3761,7 +3761,7 @@
               "kana": "ばん",
               "kanji": "晩",
               "meaning": "傍晚，晚上",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ぶんしょう",
@@ -3773,7 +3773,7 @@
               "kana": "ほうどう",
               "kanji": "報道",
               "meaning": "报道",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "まず",
@@ -3797,7 +3797,7 @@
               "kana": "まわり",
               "kanji": "周り",
               "meaning": "周围",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "もつ",
@@ -3815,7 +3815,7 @@
               "kana": "やりがい",
               "kanji": null,
               "meaning": "价值",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "よのなか",
@@ -3833,7 +3833,7 @@
               "kana": "らいしゅう",
               "kanji": "来週",
               "meaning": "下周，下星期",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "りょうしん",
@@ -3851,13 +3851,13 @@
               "kana": "あける",
               "kanji": "開ける",
               "meaning": "打开，开启",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いう",
               "kanji": "言う",
               "meaning": "说",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "いちば",
@@ -3881,7 +3881,7 @@
               "kana": "おきゃくさん",
               "kanji": "お客さん",
               "meaning": "客人，顾客",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おとなしい",
@@ -3893,13 +3893,13 @@
               "kana": "おわる",
               "kanji": "終わる",
               "meaning": "结束",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かいもの",
               "kanji": "買い物",
               "meaning": "买东西，购物",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かつ",
@@ -3911,19 +3911,19 @@
               "kana": "かんとく",
               "kanji": "監督",
               "meaning": "监考；监督；导演；教练",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "カンニング",
               "kanji": null,
               "meaning": "作弊",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "くうこう",
               "kanji": "空港",
               "meaning": "机场",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "くに",
@@ -3935,13 +3935,13 @@
               "kana": "くらい",
               "kanji": "暗い",
               "meaning": "暗，昏暗",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "けいけん",
               "kanji": "経験",
               "meaning": "经历，经验",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こだい",
@@ -3959,7 +3959,7 @@
               "kana": "こども",
               "kanji": "子供",
               "meaning": "孩子，子女；儿童",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "さっき",
@@ -3971,7 +3971,7 @@
               "kana": "さっそく",
               "kanji": null,
               "meaning": "立刻，马上，赶紧",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しかし",
@@ -3989,7 +3989,7 @@
               "kana": "じしん",
               "kanji": "地震",
               "meaning": "地震",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "じょうだん",
@@ -4001,7 +4001,7 @@
               "kana": "じれい",
               "kanji": "事例",
               "meaning": "事例",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すくない",
@@ -4013,13 +4013,13 @@
               "kana": "すてき",
               "kanji": null,
               "meaning": "好，出色；漂亮",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "スマホ",
               "kanji": null,
               "meaning": "智能手机",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すると",
@@ -4043,7 +4043,7 @@
               "kana": "たいかい",
               "kanji": "大会",
               "meaning": "大赛；大会",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "だます",
@@ -4067,13 +4067,13 @@
               "kana": "ちゃんと",
               "kanji": null,
               "meaning": "好好地",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "つうきん",
               "kanji": "通勤",
               "meaning": "上下班，通勤",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "つま",
@@ -4103,13 +4103,13 @@
               "kana": "のる",
               "kanji": "乗る",
               "meaning": "乘坐；骑(车、马等)",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はじめる",
               "kanji": "始める",
               "meaning": "开始",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "はらう",
@@ -4121,19 +4121,19 @@
               "kana": "はんばい",
               "kanji": "販売",
               "meaning": "销售，出售",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ぶた",
               "kanji": "豚",
               "meaning": "猪",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ほうちょう",
               "kanji": "包丁",
               "meaning": "菜刀",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "まど",
@@ -4145,19 +4145,19 @@
               "kana": "む",
               "kanji": "無",
               "meaning": "*む䒩 无…… ；无，没有",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "むじん",
               "kanji": "無人",
               "meaning": "无人",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "むすこ",
               "kanji": "息子",
               "meaning": "儿子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "もう",
@@ -4175,19 +4175,19 @@
               "kana": "やくそく",
               "kanji": "約束",
               "meaning": "约定",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "やさい",
               "kanji": "野菜",
               "meaning": "蔬菜",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ゆうがた",
               "kanji": "夕方",
               "meaning": "傍晚",
-              "accent": "䒩"
+              "accent": "⓪"
             }
           ]
         }
@@ -4205,13 +4205,13 @@
               "kana": "あかるい",
               "kanji": "明るい",
               "meaning": "明亮",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あびる",
               "kanji": "浴びる",
               "meaning": "照，晒；沐浴；蒙受",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あるいは",
@@ -4223,13 +4223,13 @@
               "kana": "あんな",
               "kanji": null,
               "meaning": "那样",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "えいご",
               "kanji": "英語",
               "meaning": "英语",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "おちる",
@@ -4253,7 +4253,7 @@
               "kana": "かぜ",
               "kanji": "風邪",
               "meaning": "感冒",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きたない",
@@ -4271,7 +4271,7 @@
               "kana": "けっか",
               "kanji": "結果",
               "meaning": "结果",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "けんさ",
@@ -4289,19 +4289,19 @@
               "kana": "こんな",
               "kanji": null,
               "meaning": "这样",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しせい",
               "kanji": "姿勢",
               "meaning": "姿势；态度",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しゅうかん",
               "kanji": "習慣",
               "meaning": "习惯",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "じゅうぶん",
@@ -4313,7 +4313,7 @@
               "kana": "しよう",
               "kanji": "使用",
               "meaning": "使用",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しりょく",
@@ -4325,7 +4325,7 @@
               "kana": "すいみん",
               "kanji": "睡眠",
               "meaning": "睡眠",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "そと",
@@ -4337,7 +4337,7 @@
               "kana": "そんな",
               "kanji": null,
               "meaning": "那样",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "だいじょうぶ",
@@ -4409,13 +4409,13 @@
               "kana": "ねむる",
               "kanji": "眠る",
               "meaning": "睡觉",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "パソコン",
               "kanji": null,
               "meaning": "个人电脑",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ひかり",
@@ -4433,13 +4433,13 @@
               "kana": "へらす",
               "kanji": "減らす",
               "meaning": "减少",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ほか",
               "kanji": null,
               "meaning": "别的，以外",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "マッサージ",
@@ -4487,13 +4487,13 @@
               "kana": "あまい",
               "kanji": "甘い",
               "meaning": "甜",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あまり",
               "kanji": null,
               "meaning": "(不)太，(不)很",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "あやまる",
@@ -4511,7 +4511,7 @@
               "kana": "いる",
               "kanji": "要る",
               "meaning": "需要",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "うらやましい",
@@ -4523,31 +4523,31 @@
               "kana": "かいわ",
               "kanji": "会話",
               "meaning": "会话",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "がっき",
               "kanji": "学期",
               "meaning": "学期",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かつやく",
               "kanji": "活躍",
               "meaning": "活跃",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きっと",
               "kanji": null,
               "meaning": "一定",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きもち",
               "kanji": "気持ち",
               "meaning": "心情，感觉",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "クラスメート",
@@ -4559,19 +4559,19 @@
               "kana": "けいかく",
               "kanji": "計画",
               "meaning": "计划",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "けっこん",
               "kanji": "結婚",
               "meaning": "结婚",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "けんか",
               "kanji": null,
               "meaning": "吵架，争吵；打架",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こうこうせい",
@@ -4583,7 +4583,7 @@
               "kana": "こうりゅう",
               "kanji": "交流",
               "meaning": "交流",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こんど",
@@ -4601,19 +4601,19 @@
               "kana": "じゅうよう",
               "kanji": "重要",
               "meaning": "重要",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しんぱい",
               "kanji": "心配",
               "meaning": "担心，挂念；操心",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "スケート",
               "kanji": null,
               "meaning": "滑冰",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すっぱい",
@@ -4654,7 +4654,7 @@
               "kana": "たりる",
               "kanji": "足りる",
               "meaning": "够，足",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ていど",
@@ -4666,13 +4666,13 @@
               "kana": "てがみ",
               "kanji": "手紙",
               "meaning": "信",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "てん",
               "kanji": "点",
               "meaning": "分；点",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "なかなおり",
@@ -4714,7 +4714,7 @@
               "kana": "ふあん",
               "kanji": "不安",
               "meaning": "不安，放心不下",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ふみだす",
@@ -4726,7 +4726,7 @@
               "kana": "ほうほう",
               "kanji": "方法",
               "meaning": "方法",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "まだ",
@@ -4744,7 +4744,7 @@
               "kana": "まねる",
               "kanji": null,
               "meaning": "模仿，效仿",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "みえる",
@@ -4756,7 +4756,7 @@
               "kana": "みず",
               "kanji": "水",
               "meaning": "水",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "もうしこむ",
@@ -4780,7 +4780,7 @@
               "kana": "ランニング",
               "kanji": null,
               "meaning": "跑步，赛跑",
-              "accent": "䒩"
+              "accent": "⓪"
             }
           ]
         },
@@ -4804,7 +4804,7 @@
               "kana": "がくねん",
               "kanji": "学年",
               "meaning": "学年；年级",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かた",
@@ -4822,25 +4822,25 @@
               "kana": "かんじ",
               "kanji": "漢字",
               "meaning": "汉字",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "かんそう",
               "kanji": "感想",
               "meaning": "感想",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きねん",
               "kanji": "記念",
               "meaning": "纪念",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ぎょうざ",
               "kanji": "餃子",
               "meaning": "饺子",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "きょねん",
@@ -4858,25 +4858,25 @@
               "kana": "きろく",
               "kanji": "記録",
               "meaning": "记录",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "くらべる",
               "kanji": "比べる",
               "meaning": "比较",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "けんぶつ",
               "kanji": "見物",
               "meaning": "游览，参观",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こうもく",
               "kanji": "項目",
               "meaning": "项目",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "こっけいせつ",
@@ -4888,7 +4888,7 @@
               "kana": "コメント",
               "kanji": null,
               "meaning": "(名·动3自他) 评论；说明",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "シャツ",
@@ -4900,25 +4900,25 @@
               "kana": "しゅうかく",
               "kanji": "収穫",
               "meaning": "收获；收割",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "しんちょう",
               "kanji": "身長",
               "meaning": "身高，身长",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すうがく",
               "kanji": "数学",
               "meaning": "数学",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "すすむ",
               "kanji": "進む",
               "meaning": "进步，前进",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "せ",
@@ -4942,7 +4942,7 @@
               "kana": "せいちょう",
               "kanji": "成長",
               "meaning": "成长",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "センチ",
@@ -4954,7 +4954,7 @@
               "kana": "たいじゅう",
               "kanji": null,
               "meaning": "［体重］         (名) 体重",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "たんじょうび",
@@ -4978,7 +4978,7 @@
               "kana": "なかなか",
               "kanji": null,
               "meaning": "总是(不) ；很，非常",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "にんずう",
@@ -5008,7 +5008,7 @@
               "kana": "ひょう",
               "kanji": "表",
               "meaning": "表格",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "ふえる",
@@ -5032,19 +5032,19 @@
               "kana": "まいとし",
               "kanji": "毎年",
               "meaning": "每年",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "み",
               "kanji": "身",
               "meaning": "*み䒩 身体；自身",
-              "accent": "䒩"
+              "accent": "⓪"
             },
             {
               "kana": "やった",
               "kanji": null,
               "meaning": "太好啦",
-              "accent": "䒩"
+              "accent": "⓪"
             }
           ]
         }
