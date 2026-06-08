@@ -6,8 +6,8 @@ app.json
 app.wxss
 project.config.json
 sitemap.json
-pages/
-data/
+/pages/
+data/kana.js
 
 # Generated reports and analysis tools
 reports/
@@ -15,6 +15,17 @@ tools/
 
 # Local textbook PDFs
 *.pdf
+
+# Downloaded textbook audio and temporary SmartEdu auth material
+assets/audio/textbooks/
+smartedu_auth_headers*.json
+smartedu_cookies*.txt
+
+# Local ASR/PDF processing artifacts
+.venv/
+models/
+tmp/
+asr_eval/
 
 # Common local files
 .DS_Store
